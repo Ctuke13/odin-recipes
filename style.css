@@ -1,20 +1,44 @@
 .title {
     color: goldenrod;
+    background-color: brown;
     outline: black;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
 .recipe {
  color: rgb(90, 125, 139);
- font-size: 20px;
+ font-size: 25px;
+ font-family:Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
 }
 
 .heading {
-    color: rgb(70, 53, 87);
+    display: inline;
+    color: rgb(231, 230, 231);
+    border: 1px solid brown;
+    background-color: rgb(95, 95, 84);
 }
 
 body {
     background-color: beige;
 }
+
+ img.foodpic  {
+    /* height: 200px; */
+    /* width: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid brown;
+}
+
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
